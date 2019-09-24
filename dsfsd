@@ -8,17 +8,21 @@ $movie3 = "Indiana Jones et le Royaume du crâne de cristal";
 
 
 $weapons = [
-    'movie1' => ['Harrison', 'Karen Allen', 'Paul Freeman'],
-    'movie2' => ['Harrison Ford', 'Kate Capshaw', 'Jonathan Ke Quan'],
-    'movie3' => ['Harrison Ford', 'Cate Blanchett', 'Karen Allen'],
+    $movie1 => ['Harrison', 'Karen Allen', 'Paul Freeman'],
+    $movie2 => ['Harrison Ford', 'Kate Capshaw', 'Jonathan Ke Quan'],
+    $movie3 => ['Harrison Ford', 'Cate Blanchett', 'Karen Allen'],
 ];
 
 foreach ($weapons as $title => $actors){
-    echo $title;
+    echo $title. " ";
     foreach ( $actors as $actor){
-        echo $actor;
+        echo $actor. " ";
     }
 }
+
+
+
+
 
 
 
