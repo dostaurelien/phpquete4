@@ -14,14 +14,11 @@ $weapons = [
 ];
 
 foreach ($weapons as $title => $actors){
-    echo $title. " ";
+    echo "<br>". 'Dans le film ' . $title. " ". 'les principaux acteurs sont :';
     foreach ( $actors as $actor){
-        echo $actor. " ";
+        echo "<br>". $actor. " ";
     }
 }
-
-
-
 
 
 
